@@ -1,0 +1,63 @@
+/* ------------------------------------------------- */
+/*                      POP-UP                       */
+/* ------------------------------------------------- */
+
+.Modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.95);
+    color: white;
+    padding: 30px;
+    width: 500px;
+    height: 400px;
+    overflow: auto;
+    text-align: justify;
+    border-radius: 10px;
+  }
+
+  .Modal a {
+    font-weight: 600;
+    color: #71B7FB;
+  }
+
+  .Overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+  }
+  
+  .modal-header {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .close-button {
+    background: none;
+    border: none;
+    font-size: 25px;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+  }
+
+/* ------------------------------------------------- */
+/*                    DARK MODE                      */
+/* ------------------------------------------------- */
+
+  .dark-mode .Modal {
+    color: #000;
+    background-color: rgba(255, 255, 255, 0.85);
+  }
+
+  .dark-mode .Modal a {
+    filter: brightness(70%);
+  }
+
+  .dark-mode .close-button {
+    color: #000;
+  }

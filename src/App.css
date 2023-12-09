@@ -1,0 +1,1559 @@
+/* ------------------------------------------------- */
+/*                        SITE                       */
+/* ------------------------------------------------- */
+
+body {
+  background: rgb(0, 0, 0) linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(59,59,59,1) 48%, rgba(88,88,88,1) 100%);
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+  display: flex;
+  color: #fff;
+}
+
+h1 {
+  font-size: 260%;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 230%;
+  margin-bottom: 50px;
+}
+
+h3 {
+  color: #AAD6FF;
+}
+
+h4 {
+  margin-bottom: 3px;
+}
+
+.app {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+
+/* ------------------------------------------------- */
+/*                       MENU                        */
+/* ------------------------------------------------- */
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 23%;
+  padding: 0 15px;
+}
+
+.menu a, .Contact1 a {
+  color: #71B7FB;
+  text-decoration: none;
+}
+
+.menu a:hover, .Contact1 a:hover {
+  text-decoration: underline;
+}
+
+.menu a img:hover {
+  filter: brightness(50%);
+}
+
+.menu0 {
+  width: 90%;
+  height: 100%;
+  padding-right: 15px;
+  border: 1px solid #fff;
+  border-radius: 10px;
+  background: 
+  url('/public/media/fondmenu.png'),
+  rgb(0, 0, 0) linear-gradient(0deg, rgba(22,26,31,1) 0%, rgba(27,31,35,1) 48%, rgba(45,51,56,1) 100%);
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+
+.menu1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-left: 18px;
+  height: 83%;
+}
+
+.menu1 p:first-of-type {
+  font-weight: bold;
+  font-size: larger;
+  margin-bottom: 0px;
+}
+
+.menu1 p:last-of-type {
+  font-weight: normal;
+  font-size: smaller;
+  margin-bottom: 30px;
+}
+
+.photo {
+  box-shadow: 0px 0px 11px #1C1C1C;
+}
+
+.menu2 {
+  line-height: 5px;
+  font-size: small;
+  color: #AAD6FF;
+}
+
+.menu2 p:last-of-type {
+  font-weight: bold;
+}
+
+.menu img {
+  width: 150px;
+  border-radius: 50%;
+}
+
+.menu nav {
+  text-align: left;
+  margin-bottom: 30px;
+}
+
+.menu ul {
+  list-style: none;
+  padding: 0;
+}
+
+.menu li {
+  margin-bottom: 10px;
+}
+
+.menu li img {
+  border-radius: 0%;
+  width: 20px;
+  margin-right: 15px;
+  vertical-align: middle;
+}
+
+.menu3 {
+  margin-top: 10px;
+  text-align: right;
+}
+
+.menu3 button {
+  background: none;
+}
+
+.menu3 img {
+  width: 25px;
+}
+
+.menu3 img:hover {
+  filter: brightness(50%);
+}
+
+.menu3 img:last-of-type {
+  margin-right: 0;
+}
+
+.social-links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.social-links a {
+  display: block;
+  margin: 0 5px;
+  text-decoration: none;
+}
+
+.social-links a:hover {
+  text-decoration: none;
+}
+
+.social-links img {
+  border-radius: 0%;
+  width: 28px;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+
+/* ------------------------------------------------- */
+/*                    DARK MODE                      */
+/* ------------------------------------------------- */
+
+.dark-mode {
+  color: #1B1F23;
+}
+
+.dark-mode .content, .dark-mode .content4, .dark-mode .Langage, .dark-mode .Experience, .dark-mode .AutresSkills, .dark-mode .CentresInteret {
+  background: rgb(243,243,243) linear-gradient(0deg, rgba(243,243,243,1) 0%, rgba(241,241,241,1) 16%, rgba(255,255,255,1) 100%);
+}
+
+.dark-mode .menu0 {
+  background: 
+  url('/public/media/fondmenu.png'),
+  rgb(243,243,243) linear-gradient(0deg, rgba(243,243,243,1) 0%, rgba(241,241,241,1) 16%, rgba(255,255,255,1) 100%);
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+
+.dark-mode h3, .dark-mode .menu a, .dark-mode .Contact1 a {
+  color: #0A66C2;
+}
+
+.dark-mode .Experience0 {
+  border-bottom: solid 1px #1B1F23;
+}
+
+.dark-mode .Contact1:nth-of-type(2) {
+  border-bottom: solid 1px #DDDCDB;
+}
+
+.dark-mode .barre, .dark-mode .Portfolio1, .dark-mode .Contact2 li {
+  border: solid 1px #DDDCDB;
+}
+
+.dark-mode .Portfolio2 button {
+  color: #fff;
+  filter: brightness(120%);
+}
+
+.dark-mode .Portfolio2 button:hover {
+  color: #0A66C2;
+  filter: brightness(80%);
+}
+
+.dark-mode .content button {
+  color: #fff;
+  border-bottom: solid 1px #DDDCDB;
+}
+
+.dark-mode .fill, .dark-mode .menu ul img, .dark-mode .menu3 img, .dark-mode .social-links img, .dark-mode .AutresSkills img, .dark-mode .CentresInteret img, .dark-mode .Contact2 img, .dark-mode .Contact1 img {
+  filter: brightness(80%);
+}
+
+body.dark-mode {
+  background: rgb(233,229,223) linear-gradient(0deg, rgba(233,229,223,1) 0%, rgba(237,234,229,1) 49%, rgba(244,242,238,1) 100%);
+}
+
+.dark-mode .menu0, .dark-mode .content {
+  border: 1px solid #DDDCDB;
+}
+
+.dark-mode .Langage, .dark-mode .Experience, .dark-mode .AutresSkills, .dark-mode .CentresInteret {
+  border: 1px solid #DDDCDB;
+}
+
+.dark-mode .boutonAccueil, .dark-mode .Contact2 li {
+  box-shadow: 0px 0px 2px #CCCCCC;
+}
+
+.dark-mode .photo {
+  box-shadow: 0px 0px 8px #4C4C4C;
+}
+
+.dark-mode .content {
+  background-image: 
+  linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.95)),
+  url('/public/media/lego.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.dark-mode .content3 {
+  background-image: 
+  linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.92)),
+  url('/public/media/lego2.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.dark-mode .content4 {
+  background-image: 
+  linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.95)),
+  url('/public/media/lego3.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.dark-mode .Contact, .dark-mode .Portfolio2 {
+  background: rgba(255, 255, 255, 0.4) ;
+}
+
+/* ------------------------------------------------- */
+/*                      Accueil                      */
+/* ------------------------------------------------- */
+
+button {
+  padding: 10px;
+  border-radius: 15px;
+  border-style: none;
+  background: #71B7FB;
+}
+
+button:hover {
+  background: #AAD6FF;
+  cursor: pointer;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 1000px;
+  border: 1px solid #fff;
+  border-radius: 10px;
+  min-height: 88vh;
+  background-image: 
+  linear-gradient(rgba(22, 26, 31, 0.9), rgba(27, 31, 35, 0.9)),
+  url('/public/media/lego.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.content2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 1000px;
+  min-height: 88vh;
+}
+
+.content3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 1000px;
+  border: 1px solid #fff;
+  border-radius: 10px;
+  min-height: 88vh;
+  background-image: 
+  linear-gradient(rgba(22, 26, 31, 0.95), rgba(27, 31, 35, 0.88)),
+  url('/public/media/lego2.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.content4 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 1000px;
+  border: 1px solid #fff;
+  border-radius: 10px;
+  min-height: 88vh;
+  background-image: 
+  linear-gradient(rgba(22, 26, 31, 0.9), rgba(27, 31, 35, 0.9)),
+  url('/public/media/lego3.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.photoMobile {
+  display: none;
+}
+
+.content button {
+  color: #1B1F23;
+  padding: 18px 28px;
+  margin-top: 25px;
+  font-size: 110%;
+}
+
+.Accueil:not(.boutonAccueil) {
+  cursor: auto;
+}
+
+.boutonAccueil {
+  box-shadow: 0px 0px 11px #1C1C1C;
+}
+
+.presentation p {
+  font-size: 120%;
+  padding: 0 40px;
+}
+
+.monbureau {
+  margin-top: 70px;
+}
+
+.monbureau img {
+  width: 250px;
+}
+
+/* ------------------------------------------------- */
+/*                    Compétences                    */
+/* ------------------------------------------------- */
+
+.contentSkills {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+  height: 100%;
+}
+
+.contentSkills ul {
+  text-align: center;
+  list-style: none;
+  padding: 0;
+}
+
+.Langage, .Experience, .AutresSkills, .CentresInteret {
+  border: 1px solid #fff;
+  border-radius: 10px;
+  background-color: #1B1F23;
+}
+
+.Langage {
+  width: 40%;
+  margin: 0 10px 10px 0;
+}
+
+.Langage1 li:last-of-type, .Langage2 li:last-of-type {
+  margin-bottom: 25px;
+}
+
+.Langage1 {
+  margin-top: 30px;
+}
+
+.Langage2 {
+  margin-top: 50px;
+}
+
+.barre {
+  margin: 5px auto 10px auto;
+  width: 80%;
+  height: 10px;
+  border: 1px solid #fff;
+  border-radius: 10px;
+}
+
+.fill {
+  height: 100%;
+  border-radius: 8px; 
+  background-color: #71B7FB;
+}
+
+.Experience {
+  width: 57%;
+  margin: 0 0 10px 10px;
+}
+
+.Experience0 {
+  margin: 30px auto;
+  width: 30%;
+  border-bottom: solid 1px #fff;
+}
+
+.Experience1 li:first-of-type {
+  font-weight: bold;
+}
+
+.Experience1 li:last-of-type, .Experience2 li:last-of-type {
+  margin-top: 5px;
+  font-style: italic;
+  font-size: smaller;
+  padding: 0 4px;
+}
+
+.Experience2 li:last-of-type {
+  margin-bottom: 25px;
+}
+
+.AutresSkills {
+  width: 60%;
+  margin: 10px 10px 0 0;
+}
+
+.AutresSkills img {
+  border-radius: 0%;
+  width: 20px;
+  margin-right: 15px;
+  vertical-align: middle;
+}
+
+.AutresSkills0 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.AutresSkills1 ul, .AutresSkills2 ul {
+  margin-left: 25%;
+}
+
+.AutresSkills1 li, .AutresSkills2 li {
+  text-align: left;
+  margin-bottom: 3px;
+}
+
+.AutresSkills1, .AutresSkills2 {
+  width: 50%;
+}
+
+.CentresInteret {
+  width: 37%;
+  margin: 10px 0 0 10px;
+}
+
+.CentresInteret ul {
+  margin-left: 25%;
+}
+
+.CentresInteret li {
+  text-align: left;
+  margin: 3px 0;
+}
+
+.CentresInteret li:last-of-type {
+  margin-bottom: 20px;
+}
+
+.CentresInteret img {
+  border-radius: 0%;
+  width: 20px;
+  margin-right: 30px;
+  vertical-align: middle;
+}
+
+/* ------------------------------------------------- */
+/*                     Portfolio                     */
+/* ------------------------------------------------- */
+
+.Portfolio {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.Portfolio1 {
+  max-width: 400px;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 2px 0;
+  margin: 10px;
+  border: 1px solid #fff;
+  border-radius: 10px;
+}
+
+.Portfolio button {
+  font-size: larger;
+  font-weight: bold;
+  margin: 20px 0;
+  padding: 0px;
+  width: 30px;
+  height: 30px;
+  border-radius: 20px;
+  border-style: none;
+  background: #71B7FB;
+}
+
+.Portfolio button:hover {
+  background: #AAD6FF;
+  cursor: pointer;
+}
+
+.Portfolio1 img {
+  width: 250px;
+}
+
+.Portfolio2 {
+  width: 100%;
+  background: rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+}
+
+/* ------------------------------------------------- */
+/*                      Contact                      */
+/* ------------------------------------------------- */
+
+.Contact {
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 550px;
+  background: rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+}
+
+.Contact1:first-of-type {
+  text-align: center;
+}
+
+.Contact1:nth-child(3), .Contact1:nth-child(4), .Contact1:nth-child(5) {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: left;
+  margin: 0 0 22px 25%;
+  font-size: 120%;
+}
+
+.Contact1 img {
+  width: 30px;
+  margin-right: 40px;
+}
+
+.Contact1:nth-child(4) img {
+  width: 25px;
+}
+
+.Contact1:nth-of-type(2){
+  margin-left: 50%;
+  transform: translateX(-50%);
+  margin-bottom: 60px;
+  width: 30%;
+  border-bottom: solid 1px #fff;
+}
+
+.Contact1:last-child {
+  margin-bottom: 40px;
+  font-size: 100%;
+}
+
+.Contact2 {
+  font-weight: bold;
+  margin: 40px 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.Contact2 a {
+  text-decoration: none;
+}
+
+.Contact2 li {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 9%;
+  margin: 0 10px;
+  padding: 10px;
+  border: solid 1px #fff;
+  border-radius: 10px;
+  box-shadow: 0px 0px 11px #000;
+}
+
+.Contact2 li:hover {
+  background: #CAE8FF;
+  filter: brightness(80%);
+  color: #5693C1;
+}
+
+.Contact2 img {
+  margin-top: 10px;
+  width: 40px;
+}
+
+/*--------------------------------------------------------------------------------------------*/
+
+/* ------------------------------------------------- */
+/*                    PETIT ECRAN                    */
+/* ------------------------------------------------- */
+
+@media screen and (max-width: 1250px) {
+
+.menu {
+    width: 25%;
+    padding: 0 15px;
+}
+
+.menu0 {
+  width: 90%;
+  padding-right: 10px;
+}
+
+.menu1 {
+  padding-left: 10px;
+  height: 83%;
+}
+
+.menu img {
+  width: 150px;
+}
+
+.menu li img {
+  width: 20px;
+  margin-right: 10px;
+}
+
+.menu3 img {
+  width: 22px;
+}
+
+.social-links img {
+  width: 24px;
+  margin-right: 8px;
+}
+
+button {
+  padding: 10px;
+}
+
+.content, .content2, .content3, .content4 {
+  width: 780px;
+}
+
+.Langage {
+  width: 35%;
+}
+
+.Experience {
+  width: 55%;
+  margin: 0 0 10px 10px;
+}
+
+.AutresSkills1 ul, .AutresSkills2 ul, .CentresInteret ul {
+  margin-left: 15%;
+}
+
+.AutresSkills {
+  width: 55%;
+}
+
+.CentresInteret {
+  width: 35%;
+}
+
+.Portfolio1 {
+  max-width: 320px;
+  padding: 2px 0;
+  margin: 10px;
+}
+
+.Contact2 li {
+  width: 10%;
+  margin: 0 10px;
+  padding: 15px;
+}
+  
+}
+
+/* ------------------------------------------------- */
+/*                      TABLETTE                     */
+/* ------------------------------------------------- */
+
+@media screen and (max-width: 992px) {
+
+  .menu {
+    width: 30%;
+    padding: 0 15px;
+}
+
+.menu0 {
+  width: 90%;
+  padding-right: 10px;
+}
+
+.menu1 {
+  padding-left: 10px;
+  height: 83%;
+}
+
+.menu img {
+  width: 150px;
+}
+
+.menu li img {
+  width: 20px;
+  margin-right: 10px;
+}
+
+.menu3 img {
+  width: 22px;
+}
+
+.social-links img {
+  width: 24px;
+  margin-right: 8px;
+}
+
+button {
+  padding: 10px;
+}
+
+.content, .content2, .content3, .content4 {
+  width: 550px;
+}
+
+.Langage {
+  width: 35%;
+}
+
+.Experience {
+  width: 55%;
+  margin: 0 0 10px 10px;
+}
+
+.AutresSkills1 ul, .AutresSkills2 ul, .CentresInteret ul {
+  margin-left: 15%;
+}
+
+.AutresSkills {
+  width: 55%;
+}
+
+.CentresInteret {
+  width: 35%;
+}
+
+.Portfolio1 {
+  max-width: 230px;
+  padding: 2px 0;
+  margin: 10px;
+}
+
+.Portfolio1 img {
+  width: 200px;
+}
+
+.Contact2 li {
+  width: 14%;
+  margin: 0 10px;
+  padding: 15px;
+}
+
+}
+
+/* ------------------------------------------------- */
+/*                MOBILE BIG SCREEN                  */
+/* ------------------------------------------------- */
+
+@media screen and (max-width: 768px) {
+
+  h1 {
+    font-size: 280%;
+    margin-bottom: 40px;
+  }
+      
+  h2 {
+    font-size: 200%;
+    margin-bottom: 30px;
+  }
+  
+  h3 {
+    font-size: 200%;
+  }
+  
+  h4 {
+    font-size: 150%;
+  }
+  
+  .app {
+    position: absolute;
+    left: 0%;
+    top: 0%;
+    transform: none;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    box-sizing: border-box;
+    overflow: hidden;
+  }
+  
+  .dark-mode {
+    color: #000;
+  }
+  
+  .menu {
+    width: 0;
+    padding: 0;
+  }
+  
+  .menu0 {
+    display: none;
+  }
+  
+  .mobile-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: linear-gradient(0deg, rgba(0,133,222,1) 0%, rgba(5,113,184,1) 49%, rgba(6,89,144,1) 100%);
+    padding: 10px 20px;
+    box-sizing: border-box;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: 70px;
+    box-shadow: 0px 0px 11px #1C1C1C;
+  }
+  
+  .mobile-links {
+    display: flex;
+    align-items: center;
+  }
+  
+  .mobile-link {
+    margin-right: 20px;
+  }
+  
+  .mobile-darkmode img {
+    width: 40px;
+  }
+  
+  .dark-mode .mobile-darkmode img {
+    margin-left: 4px;
+    width: 35px;
+  }
+  
+  .mobile-bar button {
+    background: none;
+  }
+  
+  .mobile-link img {
+    width: 30px;
+    border-radius: 0%;
+  }
+  
+  .mobile-link:first-of-type img {
+    width: 40px;
+    margin-right: 5px;
+  }
+  
+  .mobile-link:nth-of-type(3) img {
+    width: 40px;
+    margin: 0 5px;
+  }
+  
+  .mobile-link:last-child img {
+    width: 35px;
+    margin-right: 0;
+  }
+  
+  .mobile-link:hover img {
+    cursor: pointer;
+  }
+  
+  .content {
+    width: 100vw !important;
+    display: block;
+    flex-direction: column;
+    border: 0px solid #fff;
+    padding-top: 130px;
+    border-radius: 0;
+    min-height: 100vh;
+    background: linear-gradient(0deg, rgba(22,26,31,1) 0%, rgba(27,31,35,1) 48%, rgba(45,51,56,1) 100%);
+    box-sizing: border-box;
+    overflow: hidden;
+    line-height: 30px;
+  }
+  
+  .dark-mode .content, .dark-mode .content2, .dark-mode .content3, .dark-mode .content4 {
+    background: linear-gradient(0deg, rgba(233,229,223,1) 0%, rgba(237,234,229,1) 49%, rgba(244,242,238,1) 100%);
+  }
+  
+  .photoMobile {
+    display: block;
+  }
+  
+  .photoMobile img {
+    margin: 20px 0;
+    width: 160px;
+  }
+  
+  button {
+    padding: 10px;
+    border-radius: 18px;
+    border-style: none;
+    background: #1788f8;
+    font-weight: bold;
+  }
+  
+  .Accueil {
+    padding-top: 20px;
+  }
+  
+  .presentation p {
+    font-size: 120%;
+    text-align: justify;
+    padding: 0 50px;
+  }
+  
+  .content button {
+    color: #1B1F23;
+    padding: 20px;
+    margin-top: 40px;
+    font-size: 110%;
+  }
+  
+  .monbureau img {
+    display: none;
+  }
+  
+  .dark-mode .photoMobile {
+    box-shadow: none;
+  }
+  
+  .content2 {
+    display: block;
+    width: 100vw !important;
+    border: 0px;
+    padding-top: 90px;
+    border-radius: 0;
+    background: linear-gradient(0deg, rgba(22,26,31,1) 0%, rgba(27,31,35,1) 48%, rgba(45,51,56,1) 100%);
+    box-sizing: border-box;
+    overflow: hidden;
+    line-height: 30px;
+  }
+  
+  .Langage, .Experience, .AutresSkills, .CentresInteret {
+    border: 0px;
+    background-color: initial;
+    width: 100%;
+  }
+  
+  .dark-mode .Langage, .dark-mode .Experience, .dark-mode .AutresSkills, .dark-mode .CentresInteret {
+    border: 0px;
+    background: initial;
+  }
+  
+  .barre {
+    height: 25px;
+  }
+  
+  .AutresSkills1, .AutresSkills2, .CentresInteret ul li {
+    width: 100%;
+    font-size: 140%;
+  }
+  
+  .AutresSkills1, .AutresSkills2 {
+    margin-left: 25%;
+  }
+  
+  .CentresInteret img {
+    width: 35px;
+    margin-right: 30px;
+  }
+  
+  .CentresInteret {
+    padding-bottom: 40px;
+    margin: 0 auto;
+  }
+  
+  .Experience ul li {
+    font-size: 140%;
+  }
+  
+  .Experience ul li:last-child {
+    font-size: 125%;
+  }
+  
+  .content4 {
+    display: block;
+    width: 100vw !important;
+    border: 0px solid #fff;
+    padding-top: 100px;
+    border-radius: 0;
+    background: linear-gradient(0deg, rgba(22,26,31,1) 0%, rgba(27,31,35,1) 48%, rgba(45,51,56,1) 100%);
+    box-sizing: border-box;
+    overflow: hidden;
+    line-height: 30px;
+  }
+  
+  .Portfolio1 {
+    max-width: 400px;
+    border: 0px solid #fff;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .Portfolio1:last-of-type {
+    margin-bottom: 40px;
+  }
+  
+  .Portfolio1 img {
+    width: 390px;
+  }
+  
+  .Portfolio2 {
+    background: initial;
+  }
+  
+  .Portfolio2 button {
+    width: 50px;
+    height: 50px;
+    font-size: 180%;
+    border-radius: 50%;
+  }
+  
+  .Modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.95);
+    color: white;
+    padding: 30px;
+    width: 500px;
+    height: 500px;
+    overflow: auto;
+    text-align: justify;
+    border-radius: 10px;
+  }
+  
+  .dark-mode .Portfolio1 {
+    border: 0;
+  }
+  
+  .dark-mode .Portfolio2 {
+    background: initial;
+  }
+  
+  .content3 {
+    display: block;
+    width: 100vw !important;
+    min-height: 100vh;
+    border: 0px solid #fff;
+    padding-top: 120px;
+    border-radius: 0;
+    background: linear-gradient(0deg, rgba(22,26,31,1) 0%, rgba(27,31,35,1) 48%, rgba(45,51,56,1) 100%);
+    box-sizing: border-box;
+    overflow: hidden;
+  }
+  
+  .Contact {
+    background: initial;
+  }
+  
+  .Contact1:nth-of-type(2){
+    margin-bottom: 80px;
+  }
+  
+  .Contact h2 {
+    font-size: 290%;
+    margin-bottom: 70px;
+  }
+  
+  .Contact1:nth-child(3), .Contact1:nth-child(4), .Contact1:nth-child(5) {
+    margin: 0 0 30px 25%;
+    font-size: 160%;
+  }
+  
+  .Contact2 {
+    margin: 80px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .Contact2 li {
+    font-size: 0;
+    width: 15%;
+    margin: 0 5px;
+    padding: 5px;
+    border: solid 0px #fff;
+    border-radius: 10px;
+    box-shadow: none;
+  }
+  
+  .Contact2 img {
+    width: 65px;
+  }
+  
+  .dark-mode .Contact {
+    background: initial;
+  }
+  
+  .dark-mode .Contact2 li {
+    border: 0;
+    box-shadow: none;
+  }
+  
+  .dark-mode .Contact1:nth-of-type(2) {
+    border-bottom: #1B1F23 solid 1px;
+  }
+  
+  .dark-mode .barre {
+    border: #1B1F23 solid 1px;
+  }
+  
+  }
+
+/* ------------------------------------------------- */
+/*                 MOBILE smartscreen                */
+/* ------------------------------------------------- */
+
+@media screen and (max-width: 600px) {
+
+h1 {
+  font-size: 220%;
+  margin-bottom: 10px;
+}
+    
+h2 {
+  font-size: 150%;
+  margin-bottom: 10px;
+}
+
+h3 {
+  font-size: 160%;
+}
+
+h4 {
+  font-size: 120%;
+}
+
+.app {
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  transform: none;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.dark-mode {
+  color: #000;
+}
+
+.menu {
+  width: 0;
+  padding: 0;
+}
+
+.menu0 {
+  display: none;
+}
+
+.mobile-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: linear-gradient(0deg, rgba(0,133,222,1) 0%, rgba(5,113,184,1) 49%, rgba(6,89,144,1) 100%);
+  padding: 10px 20px;
+  box-sizing: border-box;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 70px;
+  box-shadow: 0px 0px 11px #1C1C1C;
+}
+
+.mobile-links {
+  display: flex;
+  align-items: center;
+}
+
+.mobile-link {
+  margin-right: 15px;
+}
+
+.mobile-darkmode img {
+  width: 40px;
+}
+
+.dark-mode .mobile-darkmode img {
+  margin-left: 4px;
+  width: 35px;
+}
+
+.mobile-bar button {
+  background: none;
+}
+
+.mobile-link img {
+  width: 30px;
+  border-radius: 0%;
+}
+
+.mobile-link:first-of-type img {
+  width: 40px;
+  margin-right: 5px;
+}
+
+.mobile-link:nth-of-type(3) img {
+  width: 40px;
+  margin: 0 5px;
+}
+
+.mobile-link:last-child img {
+  width: 35px;
+  margin-right: 0;
+}
+
+.mobile-link:hover img {
+  cursor: pointer;
+}
+
+.content {
+  width: 100vw !important;
+  display: block;
+  flex-direction: column;
+  border: 0px solid #fff;
+  padding-top: 120px;
+  border-radius: 0;
+  min-height: 100vh;
+  background: linear-gradient(0deg, rgba(22,26,31,1) 0%, rgba(27,31,35,1) 48%, rgba(45,51,56,1) 100%);
+  box-sizing: border-box;
+  overflow: hidden;
+  line-height: 30px;
+}
+
+.dark-mode .content, .dark-mode .content2, .dark-mode .content3, .dark-mode .content4 {
+  background: linear-gradient(0deg, rgba(233,229,223,1) 0%, rgba(237,234,229,1) 49%, rgba(244,242,238,1) 100%);
+}
+
+.photoMobile {
+  display: block;
+}
+
+.photoMobile img {
+  margin: 20px 0;
+  width: 130px;
+}
+
+button {
+  padding: 5px;
+  border-radius: 15px;
+  border-style: none;
+  background: #1788f8;
+  font-weight: bold;
+}
+
+.Accueil {
+  padding-top: 20px;
+}
+
+.presentation p {
+  font-size: 110%;
+  text-align: justify;
+  padding: 0 40px;
+}
+
+.content button {
+  color: #1B1F23;
+  padding: 20px;
+  margin-top: 40px;
+  font-size: 100%;
+}
+
+.monbureau img {
+  display: none;
+}
+
+.dark-mode .photoMobile {
+  box-shadow: none;
+}
+
+.content2 {
+  display: block;
+  width: 100vw !important;
+  border: 0px;
+  padding-top: 100px;
+  border-radius: 0;
+  background: linear-gradient(0deg, rgba(22,26,31,1) 0%, rgba(27,31,35,1) 48%, rgba(45,51,56,1) 100%);
+  box-sizing: border-box;
+  overflow: hidden;
+  line-height: 30px;
+}
+
+.Langage, .Experience, .AutresSkills, .CentresInteret {
+  border: 0px;
+  background-color: initial;
+  width: 90%;
+}
+
+.dark-mode .Langage, .dark-mode .Experience, .dark-mode .AutresSkills, .dark-mode .CentresInteret {
+  border: 0px;
+  background: initial;
+}
+
+.barre {
+  height: 20px;
+}
+
+.AutresSkills1, .AutresSkills2, .CentresInteret ul li {
+  width: 100%;
+  font-size: 120%;
+}
+
+.AutresSkills1, .AutresSkills2 {
+  margin-left: 10px;
+}
+
+.CentresInteret img {
+  width: 30px;
+  margin-right: 20px;
+}
+
+.CentresInteret {
+  padding-bottom: 30px;
+  margin: 0 auto;
+}
+
+.Experience ul li {
+  font-size: 120%;
+}
+
+.Experience ul li:last-child {
+  font-size: 120%;
+}
+
+.content4 {
+  display: block;
+  width: 100vw !important;
+  border: 0px solid #fff;
+  padding-top: 100px;
+  border-radius: 0;
+  background: linear-gradient(0deg, rgba(22,26,31,1) 0%, rgba(27,31,35,1) 48%, rgba(45,51,56,1) 100%);
+  box-sizing: border-box;
+  overflow: hidden;
+  line-height: 30px;
+}
+
+.Portfolio1 {
+  max-width: 400px;
+  border: 0px solid #fff;
+  margin: 0;
+  padding: 0;
+}
+
+.Portfolio1:last-of-type {
+  margin-bottom: 40px;
+}
+
+.Portfolio1 img {
+  width: 300px;
+}
+
+.Portfolio2 {
+  background: initial;
+}
+
+.Portfolio2 button {
+  width: 50px;
+  height: 50px;
+  font-size: 150%;
+  border-radius: 50%;
+}
+
+.Modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0, 0, 0, 0.95);
+  color: white;
+  padding: 30px;
+  width: 300px;
+  height: 400px;
+  overflow: auto;
+  text-align: justify;
+  border-radius: 10px;
+}
+
+.dark-mode .Portfolio1 {
+  border: 0;
+}
+
+.dark-mode .Portfolio2 {
+  background: initial;
+}
+
+.content3 {
+  display: block;
+  width: 100vw !important;
+  min-height: 100vh;
+  border: 0px solid #fff;
+  padding-top: 140px;
+  border-radius: 0;
+  background: linear-gradient(0deg, rgba(22,26,31,1) 0%, rgba(27,31,35,1) 48%, rgba(45,51,56,1) 100%);
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.Contact {
+  background: initial;
+}
+
+.Contact1:nth-of-type(2){
+  margin-bottom: 80px;
+}
+
+.Contact h2 {
+  font-size: 220%;
+  margin-bottom: 70px;
+}
+
+.Contact1:nth-child(3), .Contact1:nth-child(4), .Contact1:nth-child(5) {
+  margin: 0 0 30px 25%;
+  font-size: 140%;
+}
+
+.Contact2 {
+  margin: 80px 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.Contact2 li {
+  font-size: 0;
+  width: 15%;
+  margin: 0 5px;
+  padding: 5px;
+  border: solid 0px #fff;
+  border-radius: 10px;
+  box-shadow: none;
+}
+
+.Contact2 img {
+  width: 50px;
+}
+
+.dark-mode .Contact {
+  background: initial;
+}
+
+.dark-mode .Contact2 li {
+  border: 0;
+  box-shadow: none;
+}
+
+.dark-mode .Contact1:nth-of-type(2) {
+  border-bottom: #1B1F23 solid 1px;
+}
+
+.dark-mode .barre {
+  border: #1B1F23 solid 1px;
+}
+
+}
+
+@media screen and (max-height: 800px) {
+
+  .monbureau img {
+    width: 25%;
+  }
+  
+  .content2 {
+    font-size: 75%;
+  }
+
+  .Portfolio img {
+    width: 50%;
+  }
+
+ }
+
